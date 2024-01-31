@@ -22,7 +22,7 @@ function AuthForm() {
   return <>
         <Box border={"1px solid gray"} borderRadius={4} padding={5}>
             <VStack spacing={4}>
-                <Image src="/logo.png" h={24} cursor={"pointer"} alt="Instagram"/>
+                <Image src="/logo.png" h={24} cursor={"pointer"} filter={"invert(40%)"} alt="Instagram"/>
                 <Input 
                     type="email"
                     placeholder="Email"
