@@ -56,7 +56,7 @@ const PostFooter = ({ post, isProfilePage, creatorProfile}) => {
           </Text>
         ) }
 
-        {isOpen ? <CommentsModal isOpen={isOpen} onClose={onclose} post={post}/> : null}
+        {isOpen ? <CommentsModal isOpen={isOpen} onClose={onClose} post={post}/> : null}
       </>
       )}
       
